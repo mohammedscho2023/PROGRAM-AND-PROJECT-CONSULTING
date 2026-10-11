@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>MT Consultancy | Program Development, Research, M&amp;E &amp; Training</title>
+<meta name="description" content="MT Consultancy: program design, research, proposals, models, training and M&amp;E for NGOs, businesses and development partners. Based in Addis Ababa.">
+<meta name="keywords" content="MT Consultancy, program development, M&amp;E, monitoring and evaluation, grant writing, proposal writing, business research, training, NGO consultant, Ethiopia, Addis Ababa">
+<meta name="robots" content="index, follow">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="MT Consultancy">
+<meta property="og:title" content="MT Consultancy | Program Development, Research, M&amp;E &amp; Training">
+<meta property="og:description" content="MT Consultancy supports NGOs, businesses and development partners with program design, research, analysis, funding proposals, models, training and monitoring &amp; evaluation.">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="MT Consultancy">
+<meta name="twitter:description" content="Program design, research, proposals, models, training and M&amp;E for NGOs, businesses and development partners.">
+<meta name="theme-color" content="#166534" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0b1210" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E%F0%9F%8C%BF%3C/text%3E%3C/svg%3E">
+
+<!-- Apply stored theme before first paint (prevents flash) -->
+<script>try{var t=localStorage.getItem('mtc-theme');if(t==='dark'||t==='light')document.documentElement.setAttribute('data-theme',t);}catch(e){}</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400..700&family=Poppins:wght@600..800&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ProfessionalService","name":"MT Consultancy","description":"MT Consultancy supports NGOs, businesses and development partners with program design, research, analysis, funding proposals, models, training and monitoring & evaluation.","telephone":"+251917106325","email":"mohammedscho2023@gmail.com","address":{"@type":"PostalAddress","addressLocality":"Addis Ababa","addressCountry":"ET"},"areaServed":"Worldwide","founder":{"@type":"Person","name":"Mohammed Tura","sameAs":["https://linkedin.com/in/mohammed-tura-044b0b96"]},"sameAs":["https://linkedin.com/in/mohammed-tura-044b0b96"],"priceRange":"$39–$129","serviceType":["Program Development","Business Research","Business Analysis","Proposal and Concept Note Development","Model Development","Training Delivery","Monitoring and Evaluation"]}
+</script>
+
+<style>
+/* ============================================================
+   1. Tokens
+   ============================================================ */
+:root{
+  color-scheme:light;
+  --bg:#f7f5ee;
+  --card:#ffffff;
+  --ink:#16261d;
+  --mut:#4d6056;
+  --line:#e3dfd0;
+  --soft:#e6f4e4;
+  --acc:#16a34a;
+  --acc2:#0d9488;
+  --nav:rgba(247,245,238,.9);
+  --hero:linear-gradient(135deg,#052e16 0%,#166534 45%,#0d9488 100%);
+  --rb:linear-gradient(90deg,#16a34a,#0d9488,#0284c7,#d97706,#65a30d);
+  --shadow:0 10px 28px -18px rgba(15,23,42,.35);
+  --radius:16px;
+  --header-h:64px;
+  --tint-a:#eef7ec;
+  --tint-b:#e8f4f1;
+  --tint-c:#e7f1f8;
+  --tint-d:#fdf2e3;
+  --tint-e:#f0edfa;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]):not([data-theme="dark"]){
+    color-scheme:dark;
+    --bg:#0b1210; --card:#131d19; --ink:#eef3f0; --mut:#9fb3a8; --line:#25332c; --soft:#16241d;
+    --acc:#4ade80; --acc2:#2dd4bf; --nav:rgba(11,18,16,.9);
+    --hero:linear-gradient(135deg,#02150c 0%,#0b3d24 45%,#0f766e 100%);
+    --shadow:0 10px 28px -18px rgba(0,0,0,.75);
+    --tint-a:#0e1c15; --tint-b:#0c1c1b; --tint-c:#0c1820; --tint-d:#20180c; --tint-e:#151329;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#0b1210; --card:#131d19; --ink:#eef3f0; --mut:#9fb3a8; --line:#25332c; --soft:#16241d;
+  --acc:#4ade80; --acc2:#2dd4bf; --nav:rgba(11,18,16,.9);
+  --hero:linear-gradient(135deg,#02150c 0%,#0b3d24 45%,#0f766e 100%);
+  --shadow:0 10px 28px -18px rgba(0,0,0,.75);
+  --tint-a:#0e1c15; --tint-b:#0c1c1b; --tint-c:#0c1820; --tint-d:#20180c; --tint-e:#151329;
+}
+
+/* ============================================================
+   2. Reset & base
+   ============================================================ */
+*,*::before,*::after{box-sizing:border-box}
+*{margin:0}
+html{
+  -webkit-text-size-adjust:100%;
+  scroll-behavior:smooth;
+  scroll-padding-top:calc(var(--header-h) + 12px);
+}
+body{
+  background:var(--bg);
+  color:var(--ink);
+  font:16px/1.65 Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  overflow-x:hidden;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+h1,h2,h3{font-family:Poppins,Inter,system-ui,sans-serif;line-height:1.2;letter-spacing:-.02em}
+a{color:inherit;text-decoration:none}
+ul{list-style:none}
+button{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--acc);outline-offset:2px;border-radius:6px}
+
+.wrap{width:100%;max-width:1120px;margin:0 auto;padding:0 20px}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+.skip-link{
+  position:fixed;left:16px;top:-70px;z-index:200;
+  background:var(--acc);color:#fff;font-weight:600;
+  padding:10px 18px;border-radius:0 0 10px 10px;
+  transition:top .2s ease;
+}
+.skip-link:focus{top:0}
+
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}
+}
+
+/* ============================================================
+   3. Buttons
+   ============================================================ */
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:8px;
+  padding:11px 20px;border-radius:10px;border:1.5px solid transparent;
+  font-weight:600;font-size:.9rem;line-height:1.2;
+  cursor:pointer;text-align:center;
+  transition:transform .18s ease,box-shadow .18s ease,background .18s ease,color .18s ease,opacity .18s ease;
+}
+.btn:hover{transform:translateY(-1px)}
+.btn:active{transform:translateY(0)}
+.btn.p{background:linear-gradient(135deg,var(--acc),var(--acc2));color:#fff;box-shadow:0 8px 20px -10px rgba(22,163,74,.7)}
+.btn.o{background:var(--card);border-color:var(--line);color:var(--ink)}
+.btn.o:hover{border-color:var(--acc);color:var(--acc)}
+.btn.block{width:100%}
+
+.icon-btn{
+  display:inline-flex;align-items:center;justify-content:center;
+  width:40px;height:40px;border-radius:10px;flex:0 0 auto;
+  background:var(--card);border:1.5px solid var(--line);cursor:pointer;
+  transition:border-color .18s ease,color .18s ease;
+}
+.icon-btn:hover{border-color:var(--acc);color:var(--acc)}
+
+/* ============================================================
+   4. Header & navigation
+   ============================================================ */
+header{
+  position:sticky;top:0;z-index:40;
+  background:var(--nav);
+  -webkit-backdrop-filter:blur(12px);
+  backdrop-filter:blur(12px);
+  border-bottom:1px solid var(--line);
+}
+header::after{
+  content:"";position:absolute;left:0;right:0;bottom:-1px;height:3px;
+  background:var(--rb);pointer-events:none;
+}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:16px;height:var(--header-h)}
+.logo{display:flex;align-items:center;gap:10px;font:800 1.15rem Poppins,sans-serif;letter-spacing:-.02em}
+.logo b{
+  display:grid;place-items:center;width:36px;height:36px;border-radius:10px;
+  background:linear-gradient(135deg,#16a34a,#0d9488);color:#fff;font-size:.85rem;
+  flex:0 0 auto;
+}
+.nav-links{display:flex;align-items:center;gap:22px}
+.nav-links a{
+  position:relative;display:inline-block;padding:6px 0;
+  font-size:.9rem;font-weight:500;color:var(--mut);
+  transition:color .18s ease;
+}
+.nav-links a::after{
+  content:"";position:absolute;left:0;right:100%;bottom:0;height:2px;
+  background:var(--acc);transition:right .22s ease;
+}
+.nav-links a:hover{color:var(--acc)}
+.nav-links a:hover::after{right:0}
+.nav-actions{display:flex;align-items:center;gap:10px}
+.burger{display:none}
+
+@media (max-width:900px){
+  .burger{display:inline-flex}
+  .nav-cta{display:none}
+  .nav-links{
+    position:absolute;top:100%;left:0;right:0;
+    display:none;flex-direction:column;align-items:stretch;gap:0;
+    background:var(--card);
+    border-bottom:1px solid var(--line);
+    box-shadow:0 18px 30px -22px rgba(0,0,0,.5);
+    padding:6px 20px 14px;
+  }
+  .nav-links.open{display:flex}
+  .nav-links li{border-bottom:1px solid var(--line)}
+  .nav-links li:last-child{border-bottom:0}
+  .nav-links a{display:block;padding:13px 0;font-size:.95rem;color:var(--ink)}
+  .nav-links a::after{display:none}
+}
+
+/* ============================================================
+   5. Hero
+   ============================================================ */
+.hero{
+  position:relative;overflow:hidden;
+  padding:88px 0 76px;
+  background:var(--hero);
+  color:#fff;
+}
+.hero::before{
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background:
+    radial-gradient(circle at 12% 22%,rgba(163,230,53,.28),transparent 45%),
+    radial-gradient(circle at 88% 78%,rgba(245,158,11,.3),transparent 45%);
+}
+.hero::after{
+  content:"🌿";position:absolute;right:3%;bottom:-18px;
+  font-size:9rem;line-height:1;opacity:.12;pointer-events:none;
+}
+.hero .wrap{position:relative;z-index:1}
+.hgrid{display:grid;grid-template-columns:1.25fr .75fr;gap:40px;align-items:center}
+.hero h1{font-size:clamp(2rem,5vw,3.4rem);font-weight:800;max-width:800px;margin-bottom:18px}
+.hero .lead{font-size:1.08rem;color:#e0f2e9;max-width:620px;margin-bottom:28px}
+.cta{display:flex;gap:12px;flex-wrap:wrap}
+
+.eye{
+  display:inline-block;margin-bottom:16px;
+  font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--acc);background:var(--soft);
+  padding:5px 12px;border-radius:99px;
+}
+.hero .eye{
+  background:rgba(255,255,255,.16);color:#fff;
+  border:1px solid rgba(255,255,255,.3);
+}
+.hero .btn.p{background:#fff;color:#14532d;box-shadow:0 10px 26px -12px rgba(0,0,0,.6)}
+.hero .btn.o{background:rgba(255,255,255,.14);border-color:rgba(255,255,255,.45);color:#fff}
+.hero .btn.o:hover{background:rgba(255,255,255,.24);color:#fff}
+
+.hcard{
+  display:grid;gap:14px;
+  background:rgba(255,255,255,.12);
+  border:1px solid rgba(255,255,255,.3);
+  -webkit-backdrop-filter:blur(10px);
+  backdrop-filter:blur(10px);
+  border-radius:24px;padding:26px;
+}
+.hcard-title{color:#fff;font-size:1.15rem}
+.hcard ul{display:grid;gap:10px}
+.hcard li{color:#ecfdf5;font-weight:600;font-size:.95rem;padding-left:22px;position:relative}
+.hcard li::before{content:"🌿";position:absolute;left:0}
+
+@media (max-width:860px){
+  .hgrid{grid-template-columns:1fr}
+}
+
+/* ============================================================
+   6. Sections, headings, cards
+   ============================================================ */
+section{padding:72px 0}
+.head{max-width:660px;margin-bottom:36px}
+.head h2{font-size:clamp(1.6rem,3.2vw,2.2rem);margin-bottom:10px}
+.head p{color:var(--mut)}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+
+.card{
+  --c:var(--acc);
+  display:flex;flex-direction:column;gap:10px;
+  background:var(--card);
+  border:1px solid var(--line);
+  border-radius:var(--radius);
+  padding:24px;
+  box-shadow:var(--shadow);
+  transition:transform .25s ease,box-shadow .25s ease;
+}
+.card:hover{transform:translateY(-5px);box-shadow:0 22px 40px -22px var(--c)}
+.card h3{font-size:1.05rem}
+.card p{color:var(--mut);font-size:.92rem;flex:1}
+.card .n{
+  display:grid;place-items:center;
+  width:48px;height:48px;border-radius:14px;flex:0 0 auto;
+  background:var(--c);color:#fff;font-size:1.35rem;
+  box-shadow:0 8px 18px -8px var(--c);
+}
+.card .k{font-size:.7rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--c)}
+.card-link{color:var(--c);font-weight:600;font-size:.88rem}
+.card-link:hover{text-decoration:underline}
+
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.tags i{
+  font-style:normal;font-size:.7rem;font-weight:600;
+  background:var(--soft);color:var(--c);
+  padding:3px 9px;border-radius:99px;
+}
+@supports (background:color-mix(in srgb,red,blue)){
+  .tags i{background:color-mix(in srgb,var(--c) 14%,var(--card))}
+}
+
+/* colour rotation */
+.grid > .card:nth-child(6n+1){--c:#16a34a}
+.grid > .card:nth-child(6n+2){--c:#0d9488}
+.grid > .card:nth-child(6n+3){--c:#d97706}
+.grid > .card:nth-child(6n+4){--c:#0284c7}
+.grid > .card:nth-child(6n+5){--c:#65a30d}
+.grid > .card:nth-child(6n+6){--c:#c2410c}
+
+/* ============================================================
+   7. About
+   ============================================================ */
+.agrid{display:grid;grid-template-columns:1.2fr .8fr;gap:36px;align-items:center}
+.agrid p{color:var(--mut);font-size:1.02rem}
+.apill{display:grid;gap:12px}
+.apill div{
+  background:var(--card);border:1px solid var(--line);border-left:6px solid var(--c);
+  border-radius:14px;padding:15px 18px;font-weight:700;font-size:.95rem;
+  box-shadow:0 10px 24px -18px rgba(22,38,29,.5);
+}
+.apill div:nth-child(1){--c:#16a34a}
+.apill div:nth-child(2){--c:#0284c7}
+.apill div:nth-child(3){--c:#d97706}
+@media (max-width:860px){.agrid{grid-template-columns:1fr}}
+
+/* ============================================================
+   8. Themed sections
+   ============================================================ */
+#services{background:linear-gradient(160deg,var(--tint-a),var(--tint-b))}
+#services .card{border-top:5px solid var(--c)}
+
+#work{background:linear-gradient(160deg,var(--tint-c),var(--tint-b))}
+#work .grid{grid-template-columns:repeat(auto-fit,minmax(320px,1fr))}
+#work .card{border-left:6px solid var(--c)}
+
+#resources{background:linear-gradient(160deg,var(--tint-d),var(--tint-a))}
+.th{
+  display:grid;place-items:center;
+  height:92px;margin:-24px -24px 6px;
+  font-size:2.4rem;
+  background:var(--c);
+  border-radius:calc(var(--radius) - 1px) calc(var(--radius) - 1px) 0 0;
+}
+@supports (background:linear-gradient(135deg,red,blue)){
+  .th{background:linear-gradient(135deg,var(--c),color-mix(in srgb,var(--c) 50%,#fff))}
+}
+.price{font:800 1.3rem Poppins,sans-serif;color:var(--c)}
+.price small{font:500 .72rem Inter,sans-serif;color:var(--mut)}
+
+#testimonials{background:linear-gradient(160deg,var(--tint-e),var(--tint-c))}
+.q{font-size:1.1rem;font-style:italic;line-height:1.6}
+.who{font-size:.85rem;color:var(--mut);font-weight:600}
+
+/* ---- Process (dark band) ---- */
+#process{
+  background:linear-gradient(150deg,#052e16,#166534 55%,#0f766e);
+  color:#fff;
+}
+#process .head h2{color:#fff}
+#process .head p{color:#bbf7d0}
+#process .eye{background:rgba(255,255,255,.16);color:#fff;border:1px solid rgba(255,255,255,.3)}
+#process .grid{
+  position:relative;
+  grid-template-columns:repeat(auto-fit,minmax(190px,1fr));
+}
+#process .grid::before{
+  content:"";position:absolute;top:50px;left:8%;right:8%;height:3px;
+  background:var(--rb);opacity:.7;pointer-events:none;
+}
+#process .card{
+  position:relative;z-index:1;
+  align-items:center;text-align:center;
+  background:rgba(255,255,255,.08);
+  border-color:rgba(255,255,255,.18);
+  border-top:1px solid rgba(255,255,255,.18);
+  -webkit-backdrop-filter:blur(8px);
+  backdrop-filter:blur(8px);
+}
+#process .card h3{color:#fff}
+#process .card p{color:#cbd5e1}
+#process .card .n{width:56px;height:56px;border-radius:50%;font-size:1.2rem;font-family:Poppins,sans-serif;font-weight:800}
+@media (max-width:900px){#process .grid::before{display:none}}
+
+/* ============================================================
+   9. Contact
+   ============================================================ */
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:start}
+.contact h2{font-size:clamp(1.6rem,3vw,1.9rem)}
+.contact .intro{color:var(--mut);margin-top:10px}
+.ci{display:grid;gap:10px;margin-top:20px}
+.ci a{
+  display:block;padding:12px 14px;border:1px solid var(--line);border-radius:10px;
+  background:var(--card);font-weight:600;font-size:.92rem;
+  overflow-wrap:anywhere;transition:transform .18s ease,border-color .18s ease;
+}
+.ci a:hover{transform:translateX(3px)}
+.ci a:nth-child(1){border-left:5px solid #16a34a}
+.ci a:nth-child(2){border-left:5px solid #d97706}
+.ci a:nth-child(3){border-left:5px solid #0284c7}
+
+#contact-form{
+  display:grid;gap:12px;
+  background:var(--card);padding:26px;border-radius:20px;
+  border:1px solid var(--line);border-top:5px solid var(--acc);
+  box-shadow:0 22px 44px -30px rgba(22,163,74,.6);
+}
+#contact-form input,
+#contact-form select,
+#contact-form textarea{
+  width:100%;padding:12px 14px;
+  border:1.5px solid var(--line);border-radius:10px;
+  background:var(--bg);color:var(--ink);font:inherit;
+  transition:border-color .18s ease;
+}
+#contact-form input:focus,
+#contact-form select:focus,
+#contact-form textarea:focus{outline:none;border-color:var(--acc);box-shadow:0 0 0 3px rgba(22,163,74,.18)}
+#contact-form textarea{min-height:118px;resize:vertical}
+#contact-form .form-note{font-size:.78rem;color:var(--mut);text-align:center}
+
+@media (max-width:800px){.contact{grid-template-columns:1fr}}
+
+/* ============================================================
+   10. Footer
+   ============================================================ */
+footer{
+  position:relative;
+  background:linear-gradient(135deg,#052e16,#14532d);
+  color:#d1fae5;padding:34px 0;font-size:.85rem;
+}
+footer::before{content:"";position:absolute;top:0;left:0;right:0;height:4px;background:var(--rb)}
+footer .wrap{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+
+/* ============================================================
+   11. WhatsApp FAB
+   ============================================================ */
+.wa{
+  position:fixed;right:18px;bottom:calc(18px + env(safe-area-inset-bottom,0px));z-index:30;
+  display:inline-flex;align-items:center;gap:8px;
+  background:linear-gradient(135deg,#25d366,#128c7e);
+  color:#fff;font-weight:700;font-size:.9rem;
+  padding:13px 18px;border-radius:99px;
+  box-shadow:0 10px 26px -8px rgba(0,0,0,.45);
+  transition:transform .2s ease;
+}
+.wa:hover{transform:translateY(-2px) scale(1.02)}
+
+/* ============================================================
+   12. Modal
+   ============================================================ */
+.ov{
+  position:fixed;inset:0;z-index:100;
+  display:grid;place-items:center;padding:16px;
+  background:rgba(5,20,12,.72);
+  -webkit-backdrop-filter:blur(3px);
+  backdrop-filter:blur(3px);
+  opacity:0;visibility:hidden;
+  transition:opacity .18s ease,visibility .18s ease;
+}
+.ov[hidden]{display:none}
+.ov.open{opacity:1;visibility:visible}
+.box{
+  width:100%;max-width:460px;max-height:90vh;overflow:auto;
+  display:grid;gap:12px;
+  background:var(--card);color:var(--ink);
+  border-radius:20px;border-top:5px solid var(--acc);
+  padding:24px;
+  box-shadow:0 30px 70px -20px rgba(0,0,0,.55);
+  transform:translateY(8px) scale(.98);
+  transition:transform .18s ease;
+}
+.ov.open .box{transform:none}
+.box h3{font-size:1.2rem}
+.box p{font-size:.9rem;color:var(--mut)}
+.box ol{padding-left:20px;color:var(--mut);font-size:.9rem;display:grid;gap:5px}
+.box .pay-item{font-weight:700;color:var(--ink);font-size:1rem}
+.amt{
+  background:linear-gradient(135deg,#d1fae5,#a7f3d0);
+  color:#065f46;border-radius:12px;padding:12px 14px;font-weight:700;font-size:.95rem;
+}
+.num{font:800 1.4rem Poppins,sans-serif;letter-spacing:.05em;color:var(--ink)}
+
+/* ============================================================
+   13. Toast
+   ============================================================ */
+#toast{
+  position:fixed;left:50%;bottom:calc(90px + env(safe-area-inset-bottom,0px));
+  transform:translate(-50%,10px);
+  z-index:150;max-width:90vw;
+  background:#0f172a;color:#fff;
+  padding:10px 18px;border-radius:10px;font-size:.88rem;
+  opacity:0;visibility:hidden;pointer-events:none;
+  transition:opacity .2s ease,transform .2s ease,visibility .2s;
+}
+#toast.show{opacity:1;visibility:visible;transform:translate(-50%,0)}
+
+/* ============================================================
+   14. Print
+   ============================================================ */
+@media print{
+  header,.wa,.ov,#toast,.skip-link{display:none!important}
+  body{background:#fff;color:#000}
+  .card{break-inside:avoid;box-shadow:none}
+  section{padding:24px 0}
+}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<div id="app"></div>
+
+<div class="ov" id="pay-overlay" hidden>
+  <div class="box" id="pay-box" role="dialog" aria-modal="true" aria-labelledby="pay-title"></div>
+</div>
+
+<div id="toast" role="status" aria-live="polite"></div>
+
+<noscript>
+  <div style="max-width:680px;margin:40px auto;padding:0 20px;font-family:system-ui,sans-serif;line-height:1.6">
+    <h1>MT Consultancy</h1>
+    <p>Program design, research, proposals, models, training and monitoring &amp; evaluation for NGOs, businesses and development partners.</p>
+    <p><strong>Phone:</strong> <a href="tel:+251917106325">+251 917 106 325</a><br>
+       <strong>Email:</strong> <a href="mailto:mohammedscho2023@gmail.com">mohammedscho2023@gmail.com</a><br>
+       <strong>Location:</strong> Addis Ababa, Ethiopia</p>
+    <p>Please enable JavaScript to view the full site.</p>
+  </div>
+</noscript>
+
+<script type="application/json" id="state">
+{"brand":"MT Consultancy","eyebrow":"Development & Business Consultancy","h1":"Evidence-driven programs, proposals and M&E for global impact","lead":"MT Consultancy helps NGOs, businesses and development partners design programs, win funding and measure results. We cover research, proposals, models, training and M&E from start to finish.","about":"MT Consultancy is a development and business consultancy based in Addis Ababa and working globally. We support NGOs, businesses and development partners with program design, research and analysis, funding proposals, business and program models, training, and monitoring and evaluation. Led by Mohammed Tura, a certified grant writer and PRINCE2-certified project manager with an MBA in Project Management, we focus on practical work that donors trust and teams can deliver.","phone":"251917106325","telebirr":"0917106325","tbname":"Mohammed Tura","rate":160,"set":{"work":true,"resources":true,"process":true,"testimonials":true,"pay":true,"wa":true},"email":"mohammedscho2023@gmail.com","linkedin":"https://linkedin.com/in/mohammed-tura-044b0b96","location":"Addis Ababa, Ethiopia · Working globally, remotely and on-site","credentials":["Certified Grant Writer","PRINCE2 Certified","MBA, Project Management","10+ years experience"],"services":[{"t":"Program Development","d":"Theory of change, logframes, budgets, staffing plans and implementation roadmaps.","g":"Design, Logframe, Strategy"},{"t":"Business Research","d":"Market research, feasibility studies, baselines and evidence synthesis.","g":"Market, Feasibility, Baseline"},{"t":"Business Analysis","d":"Performance diagnostics, process mapping, KPI design and improvement plans.","g":"Diagnostics, KPIs, Process"},{"t":"Proposals & Concept Notes","d":"Donor-ready proposals and concept notes with budgeting and compliance review.","g":"Proposals, Donors, Budgets"},{"t":"Model Development","d":"Business, financial and program models and scalable frameworks.","g":"Business Model, Financial, Scale"},{"t":"Training Delivery","d":"Tailored in-person and online training: grant writing, MEAL, program management, AI for NGOs.","g":"Workshops, Online, In-person"},{"t":"Monitoring & Evaluation","d":"M&E systems, baseline/midline/endline evaluations, impact assessments and learning reports.","g":"MEAL, Evaluation, Impact"}],"products":[{"t":"The AI Grantmaker's Playbook","d":"Proposal and concept note templates with AI prompts.","p":"$49"},{"t":"M&E Framework Toolkit","d":"Logframe templates, indicator banks, data tools and report templates.","p":"$79"},{"t":"Research & Business Analysis Guide","d":"Step-by-step method for market research, feasibility and gap analysis.","p":"$39"},{"t":"AI for Consultants & Managers","d":"Online course on using AI for proposals, analysis and reporting.","p":"$99"},{"t":"Business & Program Model Pack","d":"Business model canvas, financial model and program logic model templates.","p":"$59"},{"t":"Consultant Training Bundle","d":"Slides, facilitator guides and exercises for M&E, proposals and analysis.","p":"$129"}],"portfolio":[{"t":"Education program design","k":"Program Development","d":"Full design for an education-in-emergencies initiative: theory of change, logframe, budget and MEAL plan."},{"t":"Agri-business feasibility study","k":"Business Research","d":"Market, competitor and pricing analysis for a new agri-business venture in Ethiopia."},{"t":"Child protection proposal","k":"Proposals","d":"Concept note, logframe and budget for a multi-year child protection program."},{"t":"WASH impact evaluation","k":"M&E","d":"Endline evaluation of a 3-year community WASH program using mixed-methods data collection."},{"t":"Social enterprise business model","k":"Model Development","d":"Business model canvas, financial projections and scalability plan for an education-technology enterprise."},{"t":"Grant writing training","k":"Training","d":"3-day curriculum, facilitator guide and participant workbook for NGO staff."}],"testimonials":[],"process":[{"t":"Reach out","d":"Share your project need by WhatsApp, phone, email or the form."},{"t":"Free consultation","d":"A 30-minute call to clarify goals, scope and timeline."},{"t":"Proposal & quote","d":"A tailored scope, deliverables, timeline and transparent pricing."},{"t":"Delivery","d":"Milestone-based work with regular updates and quality checks."},{"t":"Follow-up","d":"Revisions and support to make results last."}]}
+</script>
+
+<script>
+(function () {
+  'use strict';
+
+  /* ---------- 1. Load content ---------- */
+  var stateEl = document.getElementById('state');
+  var S;
+  try { S = JSON.parse(stateEl.textContent); }
+  catch (err) { console.error('MT Consultancy: invalid JSON in #state —', err); return; }
+
+  S.set         = S.set || {};
+  S.services    = S.services || [];
+  S.products    = S.products || [];
+  S.portfolio   = S.portfolio || [];
+  S.process     = S.process || [];
+  S.testimonials= S.testimonials || [];
+  S.credentials = S.credentials || [];
+
+  /* ---------- 2. Helpers ---------- */
+  function $(sel, root) { return (root || document).querySelector(sel); }
+  function $$(sel, root) { return Array.prototype.slice.call((root || document).querySelectorAll(sel)); }
+
+  function esc(value) {
+    return String(value == null ? '' : value).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  }
+
+  function wa(message) {
+    return 'https://wa.me/' + encodeURIComponent(S.phone) + '?text=' + encodeURIComponent(message);
+  }
+
+  function telHref() {
+    return 'tel:+' + String(S.phone).replace(/[^\d]/g, '');
+  }
+
+  function copyText(text) {
+    if (navigator.clipboard && window.isSecureContext) {
+      return navigator.clipboard.writeText(text);
+    }
+    return new Promise(function (resolve, reject) {
+      try {
+        var ta = document.createElement('textarea');
+        ta.value = text;
+        ta.setAttribute('readonly', '');
+        ta.style.cssText = 'position:fixed;top:-1000px;left:-1000px;opacity:0';
+        document.body.appendChild(ta);
+        ta.select();
+        ta.setSelectionRange(0, ta.value.length);
+        var ok = document.execCommand('copy');
+        document.body.removeChild(ta);
+        ok ? resolve() : reject(new Error('execCommand copy failed'));
+      } catch (e) { reject(e); }
+    });
+  }
+
+  var toastTimer;
+  function toast(message) {
+    var el = $('#toast');
+    el.textContent = message;
+    el.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function () { el.classList.remove('show'); }, 3200);
+  }
+
+  /* ---------- 3. Modal ---------- */
+  var overlay = $('#pay-overlay');
+  var box = $('#pay-box');
+  var lastFocused = null;
+  var FOCUSABLE = 'a[href],button:not([disabled]),input:not([disabled]),select:not([disabled]),textarea:not([disabled]),[tabindex]:not([tabindex="-1"])';
+
+  function openModal(html) {
+    lastFocused = document.activeElement;
+    box.innerHTML = html;
+    overlay.hidden = false;
+    document.body.style.overflow = 'hidden';
+    requestAnimationFrame(function () { overlay.classList.add('open'); });
+    var first = box.querySelector(FOCUSABLE);
+    if (first) first.focus();
+    document.addEventListener('keydown', onModalKey);
+  }
+
+  function closeModal() {
+    overlay.classList.remove('open');
+    document.body.style.overflow = '';
+    document.removeEventListener('keydown', onModalKey);
+    setTimeout(function () { overlay.hidden = true; box.innerHTML = ''; }, 180);
+    if (lastFocused && typeof lastFocused.focus === 'function') lastFocused.focus();
+  }
+
+  function onModalKey(e) {
+    if (e.key === 'Escape') { e.preventDefault(); closeModal(); return; }
+    if (e.key !== 'Tab') return;
+    var items = $$(FOCUSABLE, box);
+    if (!items.length) return;
+    var first = items[0], last = items[items.length - 1];
+    if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+    else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+  }
+
+  overlay.addEventListener('click', function (e) { if (e.target === overlay) closeModal(); });
+
+  /* ---------- 4. Render ---------- */
+  var SERVICE_ICONS = ['🌱', '🔍', '📊', '📝', '🧩', '🎓', '✅'];
+  var PRODUCT_ICONS = ['📄', '📐', '📚', '🤖', '🧩', '🎒'];
+
+  function sectionHead(eyebrow, title, sub) {
+    return '<div class="head">' +
+      '<span class="eye">' + esc(eyebrow) + '</span>' +
+      '<h2>' + esc(title) + '</h2>' +
+      (sub ? '<p>' + esc(sub) + '</p>' : '') +
+      '</div>';
+  }
+
+  function render() {
+    var app = $('#app');
+    var waDefault = wa('Hello, I would like to discuss a project.');
+
+    /* ----- header ----- */
+    var navLinks = [
+      ['#about', 'About'],
+      ['#services', 'Services']
+    ];
+    if (S.portfolio.length && S.set.work) navLinks.push(['#work', 'Work']);
+    if (S.set.resources) navLinks.push(['#resources', 'Resources']);
+    if (S.set.process) navLinks.push(['#process', 'Process']);
+    navLinks.push(['#contact', 'Contact']);
+
+    var header =
+      '<header>' +
+        '<div class="wrap nav">' +
+          '<a class="logo" href="#top"><b aria-hidden="true">MT</b>' + esc(S.brand) + '</a>' +
+          '<nav id="primary-nav" aria-label="Primary">' +
+            '<ul class="nav-links" id="nav-links">' +
+              navLinks.map(function (l) {
+                return '<li><a href="' + l[0] + '">' + esc(l[1]) + '</a></li>';
+              }).join('') +
+            '</ul>' +
+          '</nav>' +
+          '<div class="nav-actions">' +
+            '<button class="icon-btn" id="theme-toggle" type="button" aria-label="Switch colour theme"></button>' +
+            '<a class="btn p nav-cta" href="' + waDefault + '" target="_blank" rel="noopener noreferrer">Book a consultation</a>' +
+            '<button class="icon-btn burger" id="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">' +
+              '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>' +
+            '</button>' +
+          '</div>' +
+        '</div>' +
+      '</header>';
+
+    /* ----- hero ----- */
+    var hero =
+      '<section class="hero" id="top">' +
+        '<div class="wrap hgrid">' +
+          '<div>' +
+            '<span class="eye">' + esc(S.eyebrow) + '</span>' +
+            '<h1>' + esc(S.h1) + '</h1>' +
+            '<p class="lead">' + esc(S.lead) + '</p>' +
+            '<div class="cta">' +
+              '<a class="btn p" href="' + wa('Hello, I want to discuss a consultancy project.') + '" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>' +
+              '<a class="btn o" href="#contact">Send an inquiry</a>' +
+            '</div>' +
+          '</div>' +
+          '<aside class="hcard" aria-label="Credentials">' +
+            '<h2 class="hcard-title">Why clients choose us</h2>' +
+            '<ul>' + S.credentials.map(function (c) { return '<li>' + esc(c) + '</li>'; }).join('') + '</ul>' +
+            '<a class="btn p" href="' + telHref() + '"><span aria-hidden="true">📞</span> Call +' + esc(S.phone) + '</a>' +
+          '</aside>' +
+        '</div>' +
+      '</section>';
+
+    /* ----- about ----- */
+    var about =
+      '<section id="about">' +
+        '<div class="wrap agrid">' +
+          '<div>' +
+            '<span class="eye">About</span>' +
+            '<h2 style="font-size:clamp(1.6rem,3vw,2.1rem);margin-bottom:14px">Who we are</h2>' +
+            '<p>' + esc(S.about) + '</p>' +
+          '</div>' +
+          '<div class="apill">' +
+            '<div>🌍 Global reach, based in Addis Ababa</div>' +
+            '<div>📋 ' + S.services.length + ' core services</div>' +
+            '<div>🎓 ' + esc(S.credentials[0] || 'Certified expertise') + '</div>' +
+          '</div>' +
+        '</div>' +
+      '</section>';
+
+    /* ----- services ----- */
+    var services =
+      '<section id="services">' +
+        '<div class="wrap">' +
+          sectionHead('Services', S.services.length + ' core services, one accountable partner',
+            'End-to-end support from design and research through delivery and results measurement.') +
+          '<div class="grid">' +
+            S.services.map(function (s, i) {
+              var tags = String(s.g || '').split(',').filter(function (x) { return x.trim(); });
+              return '<article class="card">' +
+                '<div class="n" aria-hidden="true">' + (SERVICE_ICONS[i] || '⭐') + '</div>' +
+                '<h3>' + esc(s.t) + '</h3>' +
+                '<p>' + esc(s.d) + '</p>' +
+                (tags.length ? '<div class="tags">' + tags.map(function (t) { return '<i>' + esc(t.trim()) + '</i>'; }).join('') + '</div>' : '') +
+                '<a class="card-link" href="' + wa('I need support with: ' + s.t) + '" target="_blank" rel="noopener noreferrer">Request this service →</a>' +
+              '</article>';
+            }).join('') +
+          '</div>' +
+        '</div>' +
+      '</section>';
+
+    /* ----- portfolio ----- */
+    var work = (S.portfolio.length && S.set.work) ?
+      '<section id="work">' +
+        '<div class="wrap">' +
+          sectionHead('Selected work', 'Projects and deliverables',
+            'Representative engagements across our service areas. Client details and full samples are available on request.') +
+          '<div class="grid">' +
+            S.portfolio.map(function (w) {
+              return '<article class="card">' +
+                '<span class="k">' + esc(w.k) + '</span>' +
+                '<h3>' + esc(w.t) + '</h3>' +
+                '<p>' + esc(w.d) + '</p>' +
+                '<a class="card-link" href="' + wa('I would like a sample of: ' + w.t) + '" target="_blank" rel="noopener noreferrer">Request a sample →</a>' +
+              '</article>';
+            }).join('') +
+          '</div>' +
+        '</div>' +
+      '</section>' : '';
+
+    /* ----- resources ----- */
+    var resources = S.set.resources ?
+      '<section id="resources">' +
+        '<div class="wrap">' +
+          sectionHead('Resources', 'Toolkits, templates and courses',
+            'Ready-to-use tools to speed up your work. Order by WhatsApp and receive instant guidance.') +
+          '<div class="grid">' +
+            S.products.map(function (p, i) {
+              var cta = S.set.pay
+                ? '<button class="btn o block" type="button" data-pay="' + i + '">Pay with telebirr</button>'
+                : '<a class="btn o block" href="' + wa('I want to order: ' + p.t) + '" target="_blank" rel="noopener noreferrer">Order on WhatsApp</a>';
+              return '<article class="card">' +
+                '<div class="th" aria-hidden="true">' + (PRODUCT_ICONS[i] || '📦') + '</div>' +
+                '<h3>' + esc(p.t) + '</h3>' +
+                '<p>' + esc(p.d) + '</p>' +
+                '<div class="price">' + esc(p.p) + ' <small>USD</small></div>' +
+                cta +
+              '</article>';
+            }).join('') +
+          '</div>' +
+        '</div>' +
+      '</section>' : '';
+
+    /* ----- process ----- */
+    var process = S.set.process ?
+      '<section id="process">' +
+        '<div class="wrap">' +
+          sectionHead('How we work', 'A clear, transparent process', '') +
+          '<div class="grid">' +
+            S.process.map(function (s, i) {
+              return '<article class="card">' +
+                '<div class="n" aria-hidden="true">' + (i + 1) + '</div>' +
+                '<h3>' + esc(s.t) + '</h3>' +
+                '<p>' + esc(s.d) + '</p>' +
+              '</article>';
+            }).join('') +
+          '</div>' +
+        '</div>' +
+      '</section>' : '';
+
+    /* ----- testimonials ----- */
+    var testimonials = (S.testimonials.length && S.set.testimonials) ?
+      '<section id="testimonials">' +
+        '<div class="wrap">' +
+          sectionHead('Testimonials', 'What clients say', '') +
+          '<div class="grid">' +
+            S.testimonials.map(function (t) {
+              return '<article class="card">' +
+                '<p class="q">“' + esc(t.q) + '”</p>' +
+                '<div class="who">' + esc(t.n) + (t.r ? ' · ' + esc(t.r) : '') + '</div>' +
+              '</article>';
+            }).join('') +
+          '</div>' +
+        '</div>' +
+      '</section>' : '';
+
+    /* ----- contact ----- */
+    var contact =
+      '<section id="contact">' +
+        '<div class="wrap contact">' +
+          '<div>' +
+            '<span class="eye">Contact</span>' +
+            '<h2>Let\'s discuss your project</h2>' +
+            '<p class="intro">We aim to reply within 24 hours on business days. ' + esc(S.location) + '.</p>' +
+            '<div class="ci">' +
+              '<a href="' + telHref() + '"><span aria-hidden="true">📞</span> +' + esc(S.phone) + '</a>' +
+              '<a href="mailto:' + esc(S.email) + '"><span aria-hidden="true">✉️</span> ' + esc(S.email) + '</a>' +
+              '<a href="' + esc(S.linkedin) + '" target="_blank" rel="noopener noreferrer"><span aria-hidden="true">in</span> LinkedIn profile</a>' +
+            '</div>' +
+          '</div>' +
+          '<form id="contact-form">' +
+            '<label class="sr-only" for="fn">Full name</label>' +
+            '<input id="fn" name="name" type="text" placeholder="Full name" autocomplete="name" required>' +
+            '<label class="sr-only" for="fe">Email address</label>' +
+            '<input id="fe" name="email" type="email" placeholder="Email" autocomplete="email" required>' +
+            '<label class="sr-only" for="fs">Service needed</label>' +
+            '<select id="fs" name="service">' +
+              S.services.map(function (s) { return '<option>' + esc(s.t) + '</option>'; }).join('') +
+              '<option>Other</option>' +
+            '</select>' +
+            '<label class="sr-only" for="fm">Project details</label>' +
+            '<textarea id="fm" name="message" placeholder="Tell us about your project" required></textarea>' +
+            '<button class="btn p" type="submit">Send via WhatsApp</button>' +
+            '<button class="btn o" type="button" id="fmail">Send via Gmail</button>' +
+            '<button class="btn o" type="button" id="fcopy">Copy email address</button>' +
+            '<p class="form-note">Your details are only used to reply to your inquiry.</p>' +
+          '</form>' +
+        '</div>' +
+      '</section>';
+
+    /* ----- footer + FAB ----- */
+    var footer =
+      '<footer>' +
+        '<div class="wrap"><span>© ' + new Date().getFullYear() + ' ' + esc(S.brand) + ' · All rights reserved.</span></div>' +
+      '</footer>';
+
+    var fab = S.set.wa
+      ? '<a class="wa" href="' + wa('Hello, I need help.') + '" target="_blank" rel="noopener noreferrer" aria-label="Chat with us on WhatsApp"><span aria-hidden="true">💬</span> WhatsApp</a>'
+      : '';
+
+    app.innerHTML =
+      header +
+      '<main id="main">' + hero + about + services + work + resources + process + testimonials + contact + '</main>' +
+      footer + fab;
+
+    wireUp();
+  }
+
+  /* ---------- 5. Behaviour ---------- */
+  function wireUp() {
+    /* theme toggle */
+    var themeBtn = $('#theme-toggle');
+    var SUN = '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>';
+    var MOON = '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>';
+
+    function isDark() {
+      var attr = document.documentElement.getAttribute('data-theme');
+      if (attr === 'dark') return true;
+      if (attr === 'light') return false;
+      return window.matchMedia('(prefers-color-scheme: dark)').matches;
+    }
+
+    function syncThemeButton() {
+      var dark = isDark();
+      themeBtn.innerHTML = dark ? SUN : MOON;
+      themeBtn.setAttribute('aria-label', dark ? 'Switch to light theme' : 'Switch to dark theme');
+      themeBtn.setAttribute('title', dark ? 'Light mode' : 'Dark mode');
+    }
+
+    themeBtn.addEventListener('click', function () {
+      var next = isDark() ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', next);
+      try { localStorage.setItem('mtc-theme', next); } catch (e) {}
+      syncThemeButton();
+    });
+
+    if (window.matchMedia) {
+      var mq = window.matchMedia('(prefers-color-scheme: dark)');
+      var onSchemeChange = function () {
+        if (!document.documentElement.getAttribute('data-theme')) syncThemeButton();
+      };
+      mq.addEventListener ? mq.addEventListener('change', onSchemeChange) : mq.addListener(onSchemeChange);
+    }
+    syncThemeButton();
+
+    /* mobile navigation */
+    var navToggle = $('#nav-toggle');
+    var navList = $('#nav-links');
+
+    function setMenu(open) {
+      navList.classList.toggle('open', open);
+      navToggle.setAttribute('aria-expanded', String(open));
+      navToggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+      navToggle.innerHTML = open
+        ? '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>'
+        : '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>';
+    }
+
+    navToggle.addEventListener('click', function () {
+      setMenu(navToggle.getAttribute('aria-expanded') !== 'true');
+    });
+    $$('#nav-links a').forEach(function (a) {
+      a.addEventListener('click', function () { setMenu(false); });
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && navToggle.getAttribute('aria-expanded') === 'true') {
+        setMenu(false);
+        navToggle.focus();
+      }
+    });
+    var wide = window.matchMedia('(min-width: 901px)');
+    var onWide = function (e) { if (e.matches) setMenu(false); };
+    wide.addEventListener ? wide.addEventListener('change', onWide) : wide.addListener(onWide);
+
+    /* payment modal */
+    $$('[data-pay]').forEach(function (btn) {
+      btn.addEventListener('click', function () { openPay(btn.getAttribute('data-pay')); });
+    });
+
+    /* contact form */
+    var form = $('#contact-form');
+
+    function buildMessage() {
+      return 'New inquiry\n\n' +
+        'Name: ' + $('#fn').value.trim() + '\n' +
+        'Email: ' + $('#fe').value.trim() + '\n' +
+        'Service: ' + $('#fs').value + '\n\n' +
+        $('#fm').value.trim();
+    }
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      if (!form.reportValidity()) return;
+      var url = 'https://wa.me/' + encodeURIComponent(S.phone) + '?text=' + encodeURIComponent(buildMessage());
+      window.open(url, '_blank', 'noopener');
+    });
+
+    $('#fmail').addEventListener('click', function () {
+      if (!form.reportValidity()) return;
+      var url = 'https://mail.google.com/mail/?view=cm&fs=1' +
+        '&to=' + encodeURIComponent(S.email) +
+        '&su=' + encodeURIComponent('Inquiry: ' + $('#fs').value) +
+        '&body=' + encodeURIComponent(buildMessage());
+      window.open(url, '_blank', 'noopener');
+    });
+
+    var copyBtn = $('#fcopy');
+    copyBtn.addEventListener('click', function () {
+      var original = 'Copy email address';
+      copyText(S.email)
+        .then(function () {
+          copyBtn.textContent = 'Copied: ' + S.email;
+          toast('Email address copied');
+          setTimeout(function () { copyBtn.textContent = original; }, 3500);
+        })
+        .catch(function () {
+          toast('Copy failed — email: ' + S.email);
+        });
+    });
+  }
+
+  /* ---------- 6. Payment dialog ---------- */
+  function openPay(index) {
+    var p = S.products[index];
+    if (!p) return;
+
+    var usd = parseFloat(String(p.p).replace(/[^\d.]/g, '')) || 0;
+    var etb = (usd && S.rate) ? Math.round(usd * S.rate / 10) * 10 : 0;
+    var amountEtb = etb ? etb.toLocaleString('en-US') + ' ETB' : 'confirm the amount on WhatsApp';
+
+    openModal(
+      '<h3 id="pay-title">Pay with telebirr</h3>' +
+      '<p class="pay-item">' + esc(p.t) + '</p>' +
+      '<div class="amt">' + esc(p.p) + ' USD ≈ ' + esc(amountEtb) + '</div>' +
+      '<p>Send to telebirr number</p>' +
+      '<div class="num">' + esc(S.telebirr) + '</div>' +
+      '<p>Account name: <strong>' + esc(S.tbname) + '</strong></p>' +
+      '<ol>' +
+        '<li>Open telebirr and choose <strong>Send Money</strong>.</li>' +
+        '<li>Enter the number above and the amount in ETB.</li>' +
+        '<li>Confirm the name matches, then pay.</li>' +
+        '<li>Send us your transaction ID or screenshot on WhatsApp.</li>' +
+      '</ol>' +
+      '<button class="btn o block" type="button" id="pay-copy">Copy telebirr number</button>' +
+      '<a class="btn p block" href="' + wa('Hello, I paid by telebirr for: ' + p.t + '. Amount: ' + amountEtb + '. Transaction ID: ') + '" target="_blank" rel="noopener noreferrer">I have paid — send proof</a>' +
+      '<button class="btn o block" type="button" id="pay-close">Close</button>'
+    );
+
+    $('#pay-close').addEventListener('click', closeModal);
+
+    var payCopy = $('#pay-copy');
+    payCopy.addEventListener('click', function () {
+      copyText(S.telebirr)
+        .then(function () {
+          payCopy.textContent = 'Copied: ' + S.telebirr;
+          toast('telebirr number copied');
+          setTimeout(function () { payCopy.textContent = 'Copy telebirr number'; }, 3500);
+        })
+        .catch(function () {
+          toast('Copy failed — telebirr: ' + S.telebirr);
+        });
+    });
+  }
+
+  /* ---------- 7. Go ---------- */
+  render();
+})();
+</script>
+</body>
+</html>
